@@ -24,8 +24,6 @@ else:
     investment_goal = yearly_amount_inflation_adjusted * 25
     print(f"Your investment goal is ${round(investment_goal, 2):,}. This is the amount of money you need to retire at {retirement_age}!")
 
-
-
 # Used on line 65 as a fun fact
 def time_to_double(rate_of_return):
     # Convert the rate of return to a decimal by dividing by 100
